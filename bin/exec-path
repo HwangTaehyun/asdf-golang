@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Get the absolute path to the PLUGIN_DIR.
+PLUGIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+# Output the absolute path to the go_wrapper.sh.
+echo "$PLUGIN_DIR/lib/go-wrapper.sh"
